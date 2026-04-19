@@ -4,8 +4,7 @@ export default function Sidebar(){
   return (
     <aside className="sidebar">
       <div>
-        <p className="miniText">PORTFOLIO</p>
-        <h1 className="brand">Samriti</h1>
+        <h1 className="brand">Samriti Sharma</h1>
         <p className="role">AI • ML • Developer</p>
       </div>
 
