@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Inter', sans-serif;
+  background:#050505;
+  color:#fff;
+  overflow-x:hidden;
+}
+body{
+  font-family:Inter, sans-serif;
+  background:
+    radial-gradient(circle at top right,#111827,#050505 45%),
+    #050505;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+.appLayout{
+  display:flex;
+  min-height:100vh;
+}
+
+.mainContent{
+  flex:1;
+  padding:60px;
+  display:flex;
+  align-items:center;
+}

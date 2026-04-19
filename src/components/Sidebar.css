@@ -1,0 +1,52 @@
+.sidebar{
+  width:290px;
+  height:100vh;
+  padding:34px 24px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  background:rgba(255,255,255,0.03);
+  backdrop-filter:blur(20px);
+  border-right:1px solid rgba(255,255,255,0.06);
+}
+
+.miniText{
+  font-size:12px;
+  letter-spacing:4px;
+  color:#8b5cf6;
+}
+
+.brand{
+  margin-top:10px;
+  font-size:38px;
+  font-weight:800;
+}
+
+.role{
+  margin-top:10px;
+  color:#9ca3af;
+}
+
+.navMenu{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.navMenu a{
+  text-decoration:none;
+  color:#fff;
+  padding:14px 16px;
+  border-radius:14px;
+  transition:.25s;
+}
+
+.navMenu a:hover{
+  background:rgba(255,255,255,0.05);
+  transform:translateX(6px);
+}
+
+.status{
+  color:#777;
+  font-size:14px;
+}
