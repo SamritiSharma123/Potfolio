@@ -18,8 +18,8 @@ export default function Home() {
         <p className="luxIssue">MY PORTFOLIO</p>
 
         <h1 className="luxTitle">
-          Where Vision <br />
-          Meets <span>Elegance</span>
+          Where Vision Meets<br />
+           <span>Elegance</span>
         </h1>
 
         <p className="luxDesc">
